@@ -1,0 +1,13 @@
+//
+// Created by 장지성 on 25. 8. 19..
+//
+
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+
+#ifndef GL_TEXTURE_MAX_ANISOTROPY_EXT
+#define GL_TEXTURE_MAX_ANISOTROPY_EXT 0x84FE
+#endif
+#ifndef GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT
+#define GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT 0x84FF
+#endif
